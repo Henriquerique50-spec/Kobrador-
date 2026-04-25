@@ -1,0 +1,54 @@
+{
+  "name": "Cobranças de Aluguel",
+  "short_name": "cobr.aluguel",
+  "description": "Gerencie cobranças e contratos de aluguel",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0c0c0e",
+  "theme_color": "#0c0c0e",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/static/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/icons/icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/static/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["finance", "business"],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "url": "/",
+      "description": "Ver cobranças do mês"
+    },
+    {
+      "name": "Adicionar inquilino",
+      "short_name": "Adicionar",
+      "url": "/?tab=adicionar",
+      "description": "Cadastrar novo inquilino"
+    }
+  ]
+}
